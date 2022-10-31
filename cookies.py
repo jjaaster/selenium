@@ -1,8 +1,8 @@
 # import webdriver
 from selenium import webdriver
 
-# create webdriver object
-driver = webdriver.Firefox()
+# run web driver
+driver = webdriver.Chrome('C:\Program Files (x86)\chromedriver.exe')
 
 # get geeksforgeeks.org
 driver.get("https://www.geeksforgeeks.org/")
